@@ -1,12 +1,14 @@
-################################################### /n
-########  ____  ____    _      _  ___  _  #########
-######## |  _ \/ ___|  / \    / |/ _ \/ | #########
-######## | |_) \___ \ / _ \   | | | | | | #########
-######## |  _ < ___) / ___ \  | | |_| | | #########
-######## |_| \_\____/_/   \_\ |_|\___/|_| #########
-########                                  #########
-###################################################
-######### Universidad Francisco Marroquín #########
-########## M114 Matemática Discreta (B) ###########
-########### 20180190 Fernanda González ############
-###################################################
+# RSA101
+
+RSA101 is a didactic tool to learn the RSA encription algorithm.
+
+  - Encrypt/decrypt text from input
+  - Encrypt/decrypt text from file
+  - Custom public key prime exponent
+  - Fixed public key prime exponent (e<sup>12</sup> + 1 = 65537)
+
+### Features on their way!
+
+  - Security score
+  - Signing messages
+  - More algorithms!
