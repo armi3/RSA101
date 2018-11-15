@@ -2,6 +2,8 @@
 
 RSA101 is a didactic tool to learn the RSA encription algorithm.
 
+### Features
+
   - Encrypt/decrypt text from input
   - Encrypt/decrypt text from file
   - Custom public key prime exponent
