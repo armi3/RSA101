@@ -41,10 +41,21 @@ if __name__ == '__main__':
 	    	
 	    # Decrypt text from input
 	    elif choice==3:
-	        print "Decrypting message with private key ", private ," . . ."
-	    	print "Your message is:"
-	    	print do.decrypt_txt(private, cipher)
-	    
+	    	if p,q in locals():
+	    		message = raw_input("Enter a cipher to decrypt with your private key: ")
+	    		print "Decrypting message with private key ", private ," . . ."
+	    		print "Your message is:"
+	    		print do.decrypt_txt(private, cipher)
+	    	else:
+	    		p = int(raw_input("Enter a prime number (17, 19, 23, etc): "))
+	    		q = int(raw_input("Enter another prime number (Not one you entered above): "))
+	    		print "Generating your public/private keypairs now . . ."
+	    		public, private = do.keypair(p, q)
+	    		print "Your public key is ", public ," and your private key is ", private
+	    		message = raw_input("Enter a cipher to decrypt with your private key: ")
+	    		print "Decrypting message with private key ", private ," . . ."
+	    		print "Your message is:"
+	    		print do.decrypt_txt(private, cipher)
 	    
 	    # Encrypt/decrypt text from file
 		elif choice==4:
