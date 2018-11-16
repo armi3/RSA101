@@ -13,4 +13,6 @@ RSA101 is a didactic tool to learn the RSA encription algorithm.
   - Fixed public key prime exponent (e<sup>12</sup> + 1 = 65537)
   - Security score
   - Signing messages
+  - Unicode support
+  - Larger primes
   - More algorithms!
