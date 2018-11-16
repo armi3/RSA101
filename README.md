@@ -14,4 +14,5 @@ RSA101 is a didactic tool to learn the RSA encription algorithm.
   - Security score
   - Signing messages
   - Unicode support
+  - Larger primes
   - More algorithms!
