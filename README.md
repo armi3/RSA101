@@ -1,6 +1,6 @@
 # RSA101
 
-RSA101 is a didactic tool to learn the RSA encription algorithm.
+RSA101 is a didactic tool to learn the RSA encryption algorithm.
 
 ### Features
 
