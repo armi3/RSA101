@@ -1,6 +1,6 @@
-# RSA101
+# Easy RSA
 
-RSA101 is a didactic tool to learn the RSA encryption algorithm.
+Easy RSA is a didactic tool to learn the RSA encryption algorithm.
 
 ### Features
 
